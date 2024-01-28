@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    width: auto;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel-numerico {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+}
+
+#panel-numerico button:last-child {
+    grid-column-start: 2;
+}
