@@ -15,3 +15,12 @@ body {
 #panel-numerico button:last-child {
     grid-column-start: 2;
 }
+
+#label {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
