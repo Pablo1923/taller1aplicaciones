@@ -29,11 +29,22 @@ header div{
     position: fixed;
 }
 
-header div span:nth-child(-n + 3){
-    background-color: #ffffff;
+header div button:nth-child(-n + 3){ 
+    border: 0;
+    cursor: pointer;
+    background-color:rgba(232, 229, 228, 0) ;
     height: 40px;
-    
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
 }
+#hotbar_acive{
+    background-color: #ffffff;
+}
+
+
 .blur_header{
     width: 300px;
     height: 48px;
