@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     text-decoration: none;
 }
@@ -35,7 +35,7 @@ header div{
 
 .presentation div:nth-child(1){
     color: black;
-    font-size: 72px;
+    font-size: 71px;
     max-width: 700px;
 }
 
